@@ -9,16 +9,17 @@
 </head>
 <body>
   <div id="app">Cargando documentación...</div>
-  <script>
-    window.$docsify = {
-      name: '📘 Siatix - Ticketera Organizacional',
-      repo: 'https://github.com/p4codev/Siatix',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      search: 'auto',
-      themeColor: '#0078D7'
-    }
-  </script>
+<script>
+  window.$docsify = {
+    name: '📘 Siatix - Ticketera Organizacional',
+    repo: 'https://github.com/p4codev/Siatix',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    search: 'auto',
+    themeColor: '#0078D7',
+    routerMode: 'history'  //  esto elimina el "#/"
+  }
+</script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
