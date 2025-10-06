@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Documentación Siatix</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
-</head>
-<body>
-  <div id="app">Cargando documentación...</div>
-  <script>
-    window.$docsify = {
-      name: 'Siatix - Ticketera Organizacional',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      repo: 'https://github.com/p4codev/Siatix'
-    }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Siatix - Ticketera Organizacional</title>
+
+    <!-- Tema oscuro de Docsify -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+
+    <!-- Ícono de pestaña (opcional) -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/906/906343.png" />
+
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .app-name {
+        color: #00bcd4 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">Cargando documentación Siatix...</div>
+
+    <script>
+      window.$docsify = {
+        name: '📘 Siatix',
+        repo: 'https://github.com/p4codev/Siatix',
+        loadSidebar: true,          //  activa el sidebar
+        subMaxLevel: 3,             // permite subniveles
+        auto2top: true,             // hace scroll al inicio al cambiar de página
+        themeColor: '#00BCD4',      // color de acento
+        search: 'auto',             // agrega búsqueda
+        relativePath: true,         // asegura rutas válidas en GitHub Pages
+      };
+    </script>
+
+    <!-- Docsify core -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  </body>
 </html>
