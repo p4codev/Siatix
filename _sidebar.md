@@ -1,4 +1,4 @@
-- [ Inicio](index.html)
+- [ Inicio](README.md)
 - [ Resumen Ejecutivo](00_Resumen_Ejecutivo.md)
 - [ Arquitectura Técnica](01_Arquitectura_Tecnica.md)
 - [ Listas SharePoint](02_Listas_SharePoint.md)
